@@ -1,0 +1,34 @@
+// SAMPLE LOGIN REQUEST
+
+{
+    "service": "ADMIN", 
+    "requestid": "1", 
+    "command": "LOGIN", 
+    "account": "your_account", 
+    "source": "your_source_id", 
+    "parameters": {
+        "token": "027363a5a5acd542622c125e04ca674be3cc5d5b", 
+        "version": "1.0", 
+        "credential": "userid%3DMYUSER20%26token%3D027363a5a5acd542622c125e04ca674be3cc5d5b%26company%3DAMER%26segment%3DAMER%26cddomain%3DA00000000000000%26usergroup%3DACCT%26accesslevel%3DACCT%26authorized%3DY%26acl%3DDADSDFA4%26timestamp%3D1400607504057%26appid%3DMYAPP"
+    }
+}
+
+
+// SAMPLE LOGIN RESPONSE
+
+{
+    "response": [
+        {
+            "service": "ADMIN", 
+            "requestid": "1", 
+            "command": "LOGIN", 
+            "timestamp": 1400607506478, 
+            "content": {
+                "code": 0, 
+                "msg": "02-1"
+            }
+        }
+    ]
+}
+
+
